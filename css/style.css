@@ -17,7 +17,9 @@ section{
 .popup-btn{
     outline: none;
     border: none;
-    background: white;
+    background: rgb(7, 77, 6);
+    color: white;
+    font-weight: bolder;
     padding: 15px 20px;
     letter-spacing: 1.5px;
 }
@@ -88,7 +90,7 @@ section{
     border: none;
     outline: none;
     padding: 10px 30px;
-    background: black;
+    background: rgb(7, 77, 6);
     color: white;
     font-size: 15px;
     letter-spacing: .5px;
