@@ -7,7 +7,7 @@ body{
 section{
     width: 100vw;
     height:100vh;
-    background-image: url("images/2.jpg");
+    background-image: url("/images/2.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -44,7 +44,7 @@ section{
 .popup-left{
     width: 300px;
     height: 450px;
-    background-image: url("images/1.png");
+    background-image: url("/images/1.png");
     background-size: cover;
 }
 
@@ -137,3 +137,16 @@ section{
     }
 }
 
+span{
+    font-weight: bolder;
+    color: rgb(7, 77, 6);
+}
+
+blockquote{
+    display: block;
+    padding:15px;
+    background-color: yellow;
+    color: red;
+    font-size: 14px;
+    font-style: italic;
+}

@@ -78,7 +78,7 @@
                                         </label>
                                 <button type="submit" class="submit-btn" onclick="dayOfBirth()">GET AKAN NAME</button>
                             </form>
-                            <p class="display"></p>
+                            <blockquote id="display"></blockquote>
                     </div>
                 </div>
             </div>
@@ -135,8 +135,8 @@
 <script src="js/jquery.maskedinput.min.js"></script>
 <script src="js/app.js"></script>
 <script>
-    $("document").ready(function(){
-        $("#datepicker").datepicker({
+ $("document").ready(function(){
+           $("#datepicker").datepicker({
 
             firstDay:1,
             showButtonPanel:true,
