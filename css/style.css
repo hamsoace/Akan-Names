@@ -59,3 +59,38 @@ section{
     top: -12px;
     cursor: pointer;
 }
+
+.popup-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-right form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.popup-right form .field{
+    border: none;
+    outline: none;
+    border-bottom: solid 1px black;
+    padding: 10px;
+    margin: 10px 0;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.popup-right form .submit-btn{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    background: black;
+    color: white;
+    font-size: 15px;
+    letter-spacing: .5px;
+    margin: 25px;
+}
