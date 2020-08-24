@@ -143,7 +143,7 @@ span{
 }
 
 blockquote{
-    display: block;
+    display: none;
     padding:15px;
     background-color: yellow;
     color: red;

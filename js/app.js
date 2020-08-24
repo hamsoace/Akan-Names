@@ -21,6 +21,12 @@ $(document).ready(function(){
 
 });
 
+$(document).ready(function(){
+    $('.submit-btn').click(function(){
+        $('#display').toggle('slow');
+    });
+});
+
 var day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", " Yaa", "Afua", "Ama"];
