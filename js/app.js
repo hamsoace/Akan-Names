@@ -1,3 +1,26 @@
+$(document).ready(function(){
+    $(".popup-btn").click(function(){
+        $(".popup")
+        .css("display", "flex")
+        .css("animation", "popup-bg 1s")
+        .css("animation-interaction-count", "1");
+        $(".popup-wrap")
+        .css("animation", "popup 1s")
+        .css("animation-iteration-count", "1");
+    });
+
+    $(".close").click(function(){
+        $(".popup-wrap")
+        .css("animation", "popup 1s")
+        .css("animation-iteration-count", "1");
+        $(".popup")
+        .delay(500)
+        .fadeOut();
+    });
+
+
+});
+
 var day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", " Yaa", "Afua", "Ama"];
