@@ -93,4 +93,44 @@ section{
     font-size: 15px;
     letter-spacing: .5px;
     margin: 25px;
+    cursor: pointer;
 }
+
+@keyframes popup-bg{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes popup{
+    0%{
+        transform: scale(0.7, 0.7);
+    }
+    100%{
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes popup-close{
+    0%{
+        transform: scale(1, 1);
+    }
+    100%{
+        transform: scale(0.7, 0.7);
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width:700px){
+    .popup-left{
+        display: none;
+    }
+    .popup-right{
+        max-width: 370px;
+        width: 80vw;
+    }
+}
+
