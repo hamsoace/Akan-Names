@@ -6,7 +6,7 @@ body{
 section{
     width: 100vw;
     height:100vh;
-    background-image: url("images/2.jpg");
+    background-image: url("/images/2.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -31,4 +31,31 @@ section{
     justify-content: center;
     align-items: center;
     display: none;
+}
+
+.popup-wrap{
+    display: flex;
+    flex-direction: row;
+}
+
+.popup-left{
+    width: 300px;
+    height: 450px;
+    background-image: url("/1.png");
+    background-size: cover;
+}
+
+.popup-right{
+    width: 370px;
+    height: 450px;
+    background: white;
+    position: relative;
+}
+
+.close{
+    position: absolute;
+    font-size: 20px;
+    right: 15px;
+    top: -12px;
+    cursor: pointer;
 }
