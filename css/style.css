@@ -1,4 +1,34 @@
-*{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body{
+    margin:0;
+
 }
 
+section{
+    width: 100vw;
+    height:100vh;
+    background-image: url("/2.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-btn{
+    outline: none;
+    border: none;
+    background: white;
+    padding: 15px 20px;
+    letter-spacing: 1.5px;
+}
+
+.popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
