@@ -15,7 +15,7 @@
     
 </head>
 <body>
-    <h1>Akan name Generator</h1>
+    <!-- <h1>Akan name Generator</h1>
     <div class="container">   
         
         <div class="col">
@@ -56,8 +56,34 @@
                 </div>
             </div>
 
-        </div>
-        <div class="row">
+        </div> -->
+        <section>
+            <button class="popup-btn">POP UP</button>
+            <div class="popup">
+                <div class="popup-wrap">
+                    <div class="popup-left"></div>
+                    <div class="popup-right">
+                        <p class="close">x</p>
+                        <h2>GET YOUR AKAN NAME</h2>
+                            <form onsubmit="formValidation()" id="myForm">
+                                        <label for="year">BIRTH DATE:</label>
+                                        <input type="text" class="field" id="datepicker"
+                                            placeholder="MM/DD/YYYY" name="year"required>
+                                        <label class="form-check-label">
+                                            <input class="field" type="radio" name="gender" id="female" checked="checked">
+                                            FEMALE
+                                        </label>
+                                        <label class="form-check-label">
+                                            <input class="field" type="radio" name="gender" id="male"> MALE
+                                        </label>
+                                <button type="submit" class="submit-btn" onclick="dayOfBirth()">GET AKAN NAME</button>
+                            </form>
+                            <p class="display"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <div class="row">
             <div class="col">
                 <div>
                     <div>
@@ -100,7 +126,7 @@
         </select>
         <button type="submit" onclick="myAkanName();" class="btn btn-primary btn-xs">Get Name</button>
         <button onclick="clearAkanMessage();">Clear</button>
-    </form> -->
+    </form> --> 
     
 <p id="display"></p>
 </body>
