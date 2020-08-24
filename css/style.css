@@ -11,8 +11,13 @@ section{
     background-size: cover;
     background-position: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+h1{
+    color: white;
 }
 
 .popup-btn{
@@ -34,6 +39,23 @@ section{
     justify-content: center;
     align-items: center;
     display: none;
+}
+
+.container{
+    display: flex;
+    color: white;
+    font-weight: bold;
+}
+
+.desc{
+    margin: 10px;
+  display: block;
+  /* background-color: white; */
+  width: 600px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
 }
 
 .popup-wrap{
