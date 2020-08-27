@@ -27,6 +27,7 @@ $(document).ready(function(){
     });
 });
 
+
 var day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", " Yaa", "Afua", "Ama"];
@@ -81,10 +82,10 @@ function dayOfBirth() {
                 document.getElementById("display").innerHTML = "You Were you born on <span>" + day[2] + "</span> and your Akan name is <span>" + maleNames[2];
             }
             if (dayOfBirth == 3) {
-                document.getElementById("display").innerHTML = "You Were you born on <span>" + day[3] + "</span> and your Akan name is <span>" + maleNames[4];
+                document.getElementById("display").innerHTML = "You Were you born on <span>" + day[3] + "</span> and your Akan name is <span>" + maleNames[3];
             }
             if (dayOfBirth == 4) {
-                document.getElementById("display").innerHTML = "You Were you born on <span>" + day[4] + "</span> and your Akan name is <span>" + maleNames[5];
+                document.getElementById("display").innerHTML = "You Were you born on <span>" + day[4] + "</span> and your Akan name is <span>" + maleNames[4];
             }
             if (dayOfBirth == 5) {
                 document.getElementById("display").innerHTML = "You Were you born on <span>" + day[5] + "</span> and your Akan name is <span>" + maleNames[5];
